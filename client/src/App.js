@@ -4,13 +4,16 @@ import { useDispatch } from 'react-redux';
 
 
 import Home from './components/Home';
+import About from './components/About/About';
 import Posts from './components/Posts/Posts';
 import Form from './components/Form/Form';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
 import { getPosts } from './actions/posts';
 import useStyles from './styles';
-import Zen from './images/ZEN.jpg';
+import SignIn from './components/Login/Login';
+import SignUp from './components/Login/Signup';
+
 
 function App() { 
   const [currentTab, setCurrentTab] = useState("home");
@@ -25,22 +28,16 @@ function App() {
 		switch (currentTab) {
       case "home":
         return <Home />;
+      case "about":
+        return <About />;
+      case "signIn":
+        return <SignIn />;
+        case "signUp":
+          return <SignUp />;
 			case "posts":
-				return <Grid container justify="space-between" alignItems="stretch" spacing={3} item xs={3} >
-        <Posts setCurrentId={setCurrentId} />
-      </Grid>
+				return <Posts setCurrentId={setCurrentId} />;
 			case "form":
-				return <Container>
-        <Grid container justify="space-between" alignItems="stretch" spacing={3}>
-          <Grid item xs={12} sm={7}>
-            <Posts setCurrentId={setCurrentId} />
-          </Grid>
-          <Grid item xs={12} sm={4}>
-            <Form currentId={currentId} setCurrentId={setCurrentId} />
-          </Grid>
-          
-        </Grid>
-      </Container>
+				return <Form setCurrentId={setCurrentId} />;
 			default:
 				return null;
 		}
@@ -60,3 +57,5 @@ function App() {
 		</div>
 	);
 }
+
+export default App;
