@@ -25,5 +25,8 @@
         "titleBar.inactiveBackground": "#594f1799",
         "titleBar.inactiveForeground": "#e7e7e799"
     },
-    "peacock.color": "#594f17"
+    "peacock.color": "#594f17",
+    "cSpell.words": [
+        "Kaizen"
+    ]
 }
