@@ -1,23 +1,26 @@
-import React from "react";
+import React from 'react';
 
 function Nav(props) {
-	const { currentTab, setCurrentTab } = props;
+  const { currentTab, setCurrentTab } = props;
+    return (
+      <React.Fragment>
 
-	return (
-		<nav>
-			<ul className="flex-row mobile-view">
-				<li className={currentTab === "about" ? "mx-2 navActive" : "mx-2"}>
-					<span onClick={() => setCurrentTab("about")}>KaiZen</span>
-				</li>
-				<li className={currentTab === "portfolio" ? "mx-2 navActive" : "mx-2"}>
-					<span onClick={() => setCurrentTab("portfolio")}>Gratitude Feed</span>
-				</li>
-				<li className={currentTab === "contact" ? "mx-2 navActive" : "mx-2"}>
-					<span onClick={() => setCurrentTab("contact")}>My Gratitudes</span>
-				</li>
-			</ul>
-		</nav>
-	);
-}
-
-export default Nav;
+         <nav id="nav-wrap">
+            <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+          <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+            <ul id="nav" className="nav">
+               <li> <a className={currentTab === "home" }>
+                  <span onClick ={() => setCurrentTab("home")}>Home</span></a>
+                </li>
+                <li> <a className={currentTab === "posts" ? "mx-2 navActive" : "mx-2"}>
+                  <span onClick ={() => setCurrentTab("posts")}>Gratitudes</span></a>
+                </li>
+                <li> <a className={currentTab === "form" ? "mx-2 navActive" : "mx-2"}>
+                  <span onClick ={() => setCurrentTab("form")}>Add new Post</span></a>
+                </li>
+            </ul>
+         </nav>
+      </React.Fragment>
+    );
+  }
+  export default Nav;

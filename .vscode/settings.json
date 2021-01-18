@@ -1,6 +1,35 @@
 {
     "git.ignoreLimitWarning": true,
+<<<<<<< HEAD
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#827321",
+        "activityBar.activeBorder": "#134c43",
+        "activityBar.background": "#827321",
+        "activityBar.foreground": "#e7e7e7",
+        "activityBar.inactiveForeground": "#e7e7e799",
+        "activityBarBadge.background": "#134c43",
+        "activityBarBadge.foreground": "#e7e7e7",
+        "editorGroup.border": "#827321",
+        "panel.border": "#827321",
+        "sideBar.border": "#827321",
+        "statusBar.background": "#594f17",
+        "statusBar.border": "#594f17",
+        "statusBar.debuggingBackground": "#172159",
+        "statusBar.debuggingBorder": "#172159",
+        "statusBar.debuggingForeground": "#e7e7e7",
+        "statusBar.foreground": "#e7e7e7",
+        "statusBarItem.hoverBackground": "#827321",
+        "tab.activeBorder": "#827321",
+        "titleBar.activeBackground": "#594f17",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.border": "#594f17",
+        "titleBar.inactiveBackground": "#594f1799",
+        "titleBar.inactiveForeground": "#e7e7e799"
+    },
+    "peacock.color": "#594f17"
+=======
     "cSpell.words": [
         "Kaizen"
     ]
+>>>>>>> a271922e63a4088ae3f153162cbbdbba02cabd10
 }
