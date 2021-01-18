@@ -11,8 +11,6 @@ import Nav from './components/Nav';
 import Footer from './components/Footer';
 import { getPosts } from './actions/posts';
 import useStyles from './styles';
-import SignIn from './components/Login/Login';
-import SignUp from './components/Login/Signup';
 
 
 function App() { 
@@ -30,18 +28,14 @@ function App() {
         return <Home />;
       case "about":
         return <About />;
-      case "signIn":
-        return <SignIn />;
-        case "signUp":
-          return <SignUp />;
-			case "posts":
-				return <Posts setCurrentId={setCurrentId} />;
-			case "form":
-				return <Form setCurrentId={setCurrentId} />;
-			default:
-				return null;
-		}
-	};
+ 	  case "posts":
+		return <Posts setCurrentId={setCurrentId} />;
+	  case "form":
+		return <Form setCurrentId={setCurrentId} />;
+	  default:
+		return null;
+	}
+};
 
 	return (
 		<div>
