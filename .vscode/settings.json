@@ -1,6 +1,5 @@
 {
     "git.ignoreLimitWarning": true,
-<<<<<<< HEAD
     "workbench.colorCustomizations": {
         "activityBar.activeBackground": "#827321",
         "activityBar.activeBorder": "#134c43",
@@ -27,9 +26,4 @@
         "titleBar.inactiveForeground": "#e7e7e799"
     },
     "peacock.color": "#594f17"
-=======
-    "cSpell.words": [
-        "Kaizen"
-    ]
->>>>>>> a271922e63a4088ae3f153162cbbdbba02cabd10
 }
