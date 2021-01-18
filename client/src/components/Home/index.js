@@ -1,19 +1,29 @@
-import React from 'react'
-import homeImage from "../../assets/images/home/home.jpg";
+import React from 'react';
+import PropTypes from 'prop-types';
+import kaiImage from '../../images/kai.PNG';
+import zenImage from '../../images/zen.PNG';
+import gratitudeImage from '../../images/gratitude.png';
+import backgroundImage from '../../images/background.jpg';
+import { TextField, Button, Typography, Grid, Hidden, Container, props, handleSubmit, Card } from '@material-ui/core';
+import useStyles from './style';
 
 function Home() {
+const classes = useStyles();
 
   return (
-    <section className="my-5" >
-      <h1 id="home">Welcome to Kaizen!</h1>
-      <img src={homeImage} className="my-2" style={{ width: "100%" }} alt="home" />
-      <div className="my-2">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum turpis sed ex condimentum molestie. Mauris condimentum lectus ut ornare dignissim. Mauris faucibus urna mi, ac feugiat metus aliquam maximus. Proin aliquam justo nec diam vulputate vestibulum. Aenean sollicitudin nulla at nisi ornare, nec suscipit massa eleifend. Morbi tristique justo vel turpis sollicitudin, et tristique velit convallis. In hac habitasse platea dictumst. Phasellus mattis nunc sed orci consequat laoreet. Praesent id nisl nibh. Curabitur imperdiet ultricies mollis. In hac habitasse platea dictumst.
-      </p>
-      </div>
+    <section id="home">
+    <header>
+    <div className="row banner">
+       <div className="banner-text">
+          <h1 className="responsive-headline">KAIZEN</h1>
+          <h3 style={{color:'#fff', fontFamily:'sans-serif '}}>Be Greatful and Get your Xen on!!!
+          </h3>
+       </div>
+    </div>
+    </header>
     </section>
-  )
+    
+  );
 }
 
-export default Home
+export default Home;
