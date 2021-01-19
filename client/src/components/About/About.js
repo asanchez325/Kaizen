@@ -1,8 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import kaiImage from '../../images/kai.PNG';
-import zenImage from '../../images/zen.PNG';
-import gratitudeImage from '../../images/gratitude.png';
+import gratitudeImage from '../../images/gratitude.jpg';
+import zenImage from '../../images/kaizen.jpg';
+import togetherImage from '../../images/together.jpg';
+import alannahImage from '../../images/alannah.jpg';
+import jonImage from '../../images/jon.jpg';
+import adeleImage from '../../images/adele.jpg';
 import { Typography, Grid, Hidden, Container, } from '@material-ui/core';
 import useStyles from './style';
 
@@ -16,7 +19,7 @@ const classes = useStyles();
         <Grid item xs={12} md={6} className={classes.cardWrapper}>
           <div className={classes.card1}>
               <Typography variant="h3">
-                Taste the holidays of the everyday close to home.
+                Life moves so quickly, take the time for gratitude. Kaizen offers a platform to commit to gratitude, share that gratitude with others and be inspired by others. 
               </Typography>  
           </div>
         </Grid>
@@ -38,19 +41,15 @@ const classes = useStyles();
             <div className={classes.item}>
               <img
                 className={classes.image}
-                src={kaiImage} alt='kai'
+                src={gratitudeImage} alt='gratitude'
                 alt="suitcase"
               />
               <Typography variant="h6" className={classes.title}>
-                The best luxury hotels
+                Gratitude
               </Typography>
               <Typography variant="h5">
                 {
-                  'From the latest trendy boutique hotel to the iconic palace with XXL pool'
-                }
-
-                {
-                  ', go for a mini-vacation just a few subway stops away from your home.'
+                  'Expressing gratitude encourages positivity and mindfullness and has been proven to improve mental health'
                 }
               </Typography>
             </div>
@@ -59,18 +58,16 @@ const classes = useStyles();
             <div className={classes.item}>
               <img
                 className={classes.image}
-                src={zenImage} alt='zen'
-                alt="graph"
+                src={zenImage} alt='kai'
+                alt="kai"
               />
               <Typography variant="h6" className={classes.title}>
-                New experiences
+                Kaizen
               </Typography>
               <Typography variant="h5">
                 {
-                  'Privatize a pool, take a Japanese bath or wake up in 900m2 of garden… '
+                  'Kaizen means continuous improvement; Kai= Change, Zen= Good. This foundation is imbedded in many cultures, beliefs and frameworks. '
                 }
-
-                {'your Sundays will not be alike.'}
               </Typography>
             </div>
           </Grid>
@@ -78,14 +75,13 @@ const classes = useStyles();
             <div className={classes.item}>
               <img
                 className={classes.image}
-                src={gratitudeImage} alt='gratitude'
+                src={togetherImage} alt='together'
               />
               <Typography variant="h6" className={classes.title}>
-                Exclusive rates
+                Putting it together
               </Typography>
               <Typography variant="h5">
-                {'By registering, you will access specially negotiated rates '}
-                {'that you will not find anywhere else.'}
+                {'By actively and continuously expressing gratitude, we will encourage continuous improvement.'}
               </Typography>
             </div>
           </Grid>
@@ -109,19 +105,14 @@ const classes = useStyles();
             <div className={classes.item3}>
               <img
                 className={classes.image3}
-                src={kaiImage} alt='kai'
-                alt="suitcase"
+                src={alannahImage} alt='alannah'
               />
               <Typography variant="h6" className={classes.title3}>
-                The best luxury hotels
+                Alannah Sanchez
               </Typography>
               <Typography variant="h5">
                 {
-                  'From the latest trendy boutique hotel to the iconic palace with XXL pool'
-                }
-
-                {
-                  ', go for a mini-vacation just a few subway stops away from your home.'
+                  'Yoga Guru & Active Runner. Thankful for Family, Adventure and Good Brewerys'
                 }
               </Typography>
             </div>
@@ -130,18 +121,15 @@ const classes = useStyles();
             <div className={classes.item3}>
               <img
                 className={classes.image3}
-                src={zenImage} alt='zen'
-                alt="graph"
+                src={jonImage} alt='jonathan'
               />
               <Typography variant="h6" className={classes.title3}>
-                New experiences
+                Jonathan Sanchez
               </Typography>
               <Typography variant="h5">
                 {
-                  'Privatize a pool, take a Japanese bath or wake up in 900m2 of garden… '
+                  'Zen Master and Mindfullnes Export. Thankful for nature, caffeine, and summer nights. '
                 }
-
-                {'your Sundays will not be alike.'}
               </Typography>
             </div>
           </Grid>
@@ -149,14 +137,13 @@ const classes = useStyles();
             <div className={classes.item3}>
               <img
                 className={classes.image3}
-                src={gratitudeImage} alt='gratitude'
+                src={adeleImage} alt='adele'
               />
               <Typography variant="h6" className={classes.title3}>
-                Exclusive rates
+                Adele
               </Typography>
               <Typography variant="h5">
-                {'By registering, you will access specially negotiated rates '}
-                {'that you will not find anywhere else.'}
+                {'Enlightenment Prodigy. Thankful for my humans, treats, and running. '}
               </Typography>
             </div>
           </Grid>

@@ -8,10 +8,10 @@ function Footer() {
 <footer className= {classes.footer}>
    <div className={classes.background}>
     <Typography
-          variant="h2"
+          variant="h4"
           marked="center"
           className={classes.title}
-          component="h1">
+          component="h2">
         Thank you for visiting Kaizen!!
     </Typography>  
     </div>
