@@ -20,9 +20,9 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/kaizen', {
   useFindAndModify: false,
   useNewUrlParser: true,
   useUnifiedTopology: true
-});
+}
 
   .then(() => app.listen(PORT, () => console.log(`Server Running on Port: http://localhost:${PORT}`)))
-  .catch((error) => console.log(`${error} did not connect`));
+  .catch((error) => console.log(`${error} did not connect`)));
 
 mongoose.set('useFindAndModify', false);
