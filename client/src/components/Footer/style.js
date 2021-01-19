@@ -4,19 +4,31 @@ import {Image} from '../../images/home.jpg';
 export default makeStyles((theme) => ({
 
   footer: {
-    margin: theme.spacing('45%'),
-    background: 'url(../../images/home.jpg)',
     bottom: 0,
     left: 0,
     right: 0,
+    marginTop: '18px',
+    paddingTop: '18px',
+    paddingBottom: '48px',
+    height: '12px',
+    position: 'relative',
   },
   background: {
-    pointEvents: 'none',
+    background: 'url(../../images/home.jpg)',
     position: 'absolute',
+    width: '100%',
     bottom: 0,
+    left: 0,
+    right: 0,
+    backgroundSize: 'cover',
+    letterSpacing: '2.5px',
   },
+
   title: {
-    marginBottom: theme.spacing(14),
+    marginBottom: theme.spacing(10),
+    position: 'relative',
+    align: 'center',
   },
 
 }))
+
