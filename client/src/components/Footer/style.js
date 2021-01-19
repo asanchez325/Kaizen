@@ -1,11 +1,34 @@
-import React from 'react';
+import { makeStyles } from '@material-ui/core/styles';
+import {Image} from '../../images/home.jpg';
 
+export default makeStyles((theme) => ({
 
-function Footer() {
-  return (
-    <footer id="footer-wrap">
-    <h1>Thank you for visiting!</h1>
-  </footer>
-  );
-}
-export default Footer;
+  footer: {
+    bottom: 0,
+    left: 0,
+    right: 0,
+    marginTop: '18px',
+    paddingTop: '18px',
+    paddingBottom: '48px',
+    height: '12px',
+    position: 'relative',
+  },
+  background: {
+    background: 'url(../../images/home.jpg)',
+    position: 'absolute',
+    width: '100%',
+    bottom: 0,
+    left: 0,
+    right: 0,
+    backgroundSize: 'cover',
+    letterSpacing: '2.5px',
+  },
+
+  title: {
+    marginBottom: theme.spacing(10),
+    position: 'relative',
+    align: 'center',
+  },
+
+}))
+
