@@ -5,7 +5,7 @@ import togetherImage from '../../images/together.jpg';
 import alannahImage from '../../images/alannah.jpg';
 import jonImage from '../../images/jon.jpg';
 import adeleImage from '../../images/adele.jpg';
-import { Typography, Grid, Hidden, Container, } from '@material-ui/core';
+import { Typography, Grid, Container, } from '@material-ui/core';
 import useStyles from './style';
 
 function About() {

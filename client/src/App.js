@@ -9,7 +9,6 @@ import Form from './components/Form/Form';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
 import { getPosts } from './actions/posts';
-import useStyles from './styles';
 
 
 function App() { 

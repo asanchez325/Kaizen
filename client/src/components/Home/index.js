@@ -1,5 +1,4 @@
 import React from 'react';
-import useStyles from './style';
 
 function Home() {
 
