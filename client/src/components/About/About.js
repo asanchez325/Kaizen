@@ -41,7 +41,6 @@ const classes = useStyles();
               <img
                 className={classes.image}
                 src={gratitudeImage} alt='gratitude'
-                alt="suitcase"
               />
               <Typography variant="h6" className={classes.title}>
                 Gratitude
@@ -58,7 +57,6 @@ const classes = useStyles();
               <img
                 className={classes.image}
                 src={zenImage} alt='kai'
-                alt="kai"
               />
               <Typography variant="h6" className={classes.title}>
                 Kaizen
