@@ -1,6 +1,6 @@
 import React from 'react';
 import useStyles from './style';
-import { Typography, Grid, Hidden, Container, } from '@material-ui/core';
+import { Typography } from '@material-ui/core';
 
 function Footer() {
     const classes = useStyles();

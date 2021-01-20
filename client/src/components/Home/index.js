@@ -1,10 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import kaiImage from '../../images/kai.PNG';
-import zenImage from '../../images/zen.PNG';
-import gratitudeImage from '../../images/gratitude.png';
-import backgroundImage from '../../images/background.jpg';
-import { TextField, Button, Typography, Grid, Hidden, Container, props, handleSubmit, Card } from '@material-ui/core';
 import useStyles from './style';
 
 function Home() {
