@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Container, AppBar, Typography, Grow, Grid } from '@material-ui/core';
 import { useDispatch } from 'react-redux';
 
 
@@ -17,7 +16,6 @@ function App() {
   const [currentTab, setCurrentTab] = useState("home");
   const [currentId, setCurrentId] = useState(0);
   const dispatch = useDispatch();
-  const classes = useStyles();
 
   useEffect(() => {
     dispatch(getPosts());
