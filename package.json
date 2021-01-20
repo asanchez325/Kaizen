@@ -5,8 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon cd client/ && index.js",
-    "build": "cd client/ && npm install && npm run build"
+    "start": "nodemon index.js",
+    "build": "cd client/ && npm install && npm run build",
+    "heroku-postbuild": "cd client && npm install && npm run build"
   },
   "author": "",
   "license": "ISC",
