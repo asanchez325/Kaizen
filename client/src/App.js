@@ -29,7 +29,7 @@ function App() {
  	  case "posts":
 		return <Posts setCurrentId={setCurrentId} />;
 	  case "form":
-		return <Form setCurrentId={setCurrentId} />;
+		return <Form currentId={currentId} setCurrentId={setCurrentId} />;
 	  default:
 		return null;
 	}
