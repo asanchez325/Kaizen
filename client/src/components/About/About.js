@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import gratitudeImage from '../../images/gratitude.jpg';
 import zenImage from '../../images/kaizen.jpg';
 import togetherImage from '../../images/together.jpg';

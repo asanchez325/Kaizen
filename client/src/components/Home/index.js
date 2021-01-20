@@ -2,7 +2,6 @@ import React from 'react';
 import useStyles from './style';
 
 function Home() {
-const classes = useStyles();
 
   return (
     <section id="home">
