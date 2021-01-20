@@ -2,8 +2,9 @@ import express from 'express';
 import bodyParser from 'body-parser';
 import mongoose from 'mongoose';
 import cors from 'cors';
+import path from 'path';
 
-import postRoutes from './routes/posts.js';
+import postRoutes from './routes/posts';
 
 const app = express();
 
@@ -20,7 +21,7 @@ if (process.env.NODE_ENV === 'production'){
   app.use(express.static('client/build'));
 
   app.get('*', (req,res) => {
-    res.sendFile(path.join(__dirname,  'client', 'build', 'index.html'));
+    res.sendFile(path.resolve(__dirname,  'client', 'build', 'index.html'));
   })
 }
 
