@@ -3,23 +3,23 @@ import { makeStyles } from '@material-ui/core/styles';
 export default makeStyles((theme) => ({
   root: {
     '& .MuiTextField-root': {
-      margin: theme.spacing('45%'),
+      margin: theme.spacing('80%'),
 
     },
   },
   paper: {
-    padding: theme.spacing(10),
+    padding: theme.spacing(15),
   },
   form: {
-    display: 'flex',
+    display: 'inline',
     flexWrap: 'wrap',
-    justifyContent: 'center',
+    justifyContent: 'right',
   },
   fileInput: {
-    width: '97%',
-    margin: '10px 0',
+    width: '100%',
+    margin: '20px 0',
   },
   buttonSubmit: {
-    marginBottom: 10,
+    marginBottom: 20,
   },
 }));

@@ -5,8 +5,8 @@ export default makeStyles((theme) => ({
     display: 'flex',
     alignItems: 'center',
   },
-  smMargin: {
-    margin: theme.spacing(1),
+  lgMargin: {
+    margin: theme.spacing(5),
   },
   actionDiv: {
     textAlign: 'center',
