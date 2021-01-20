@@ -10,7 +10,7 @@ export default makeStyles((theme) => ({
     paddingTop: '18px',
     paddingBottom: '48px',
     height: '12px',
-    position: 'relative',
+    position: 'static',
   },
   background: {
     background: 'url(../../images/home.jpg)',
@@ -24,7 +24,7 @@ export default makeStyles((theme) => ({
   },
 
   title: {
-    marginBottom: theme.spacing(10),
+    marginBottom: theme.spacing(3),
     position: 'relative',
     align: 'center',
   },

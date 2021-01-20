@@ -18,24 +18,25 @@ export default makeStyles({
     flexDirection: 'column',
     justifyContent: 'space-between',
     borderRadius: '15px',
-    maxHeight: 200,
+    maxHeight: 150,
     maxWidth: 150,
-    position: 'relative',
+    position: 'sticky',
+    margin: 40,
   },
   overlay: {
     position: 'absolute',
-    top: '20px',
+    top: '10px',
     left: '20px',
     color: 'white',
   },
   overlay2: {
     position: 'absolute',
-    top: '20px',
-    right: '20px',
+    top: '1px',
+    right: '10px',
     color: 'white',
   },
   grid: {
-    display: 'flex',
+    display: 'static',
   },
   details: {
     display: 'flex',
@@ -48,6 +49,6 @@ export default makeStyles({
   cardActions: {
     padding: '0 16px 8px 16px',
     display: 'flex',
-    justifyContent: 'space-between',
+    justifyContent: 'center',
   },
 });

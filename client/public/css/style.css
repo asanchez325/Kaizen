@@ -95,8 +95,8 @@ html {
  
  
  #nav-wrap ul, #nav-wrap li, #nav-wrap a {
-      margin: 0;
-      padding: 0;
+      margin: 20;
+      padding: 20;
       border: none;
       outline: none;
  }
@@ -108,7 +108,7 @@ html {
     background-size: cover;
     text-transform: uppercase;
     letter-spacing: 2.5px;
-    margin: 0 auto;
+    margin: 20 auto;
     z-index: 100;
     position: fixed;
     left: 0;
@@ -118,7 +118,7 @@ html {
  #nav-wrap > a.mobile-btn { display: none; }
  
  ul#nav {
-    min-height: 48px;
+    min-height: 50px;
     width: auto;
     text-align: center;
  }

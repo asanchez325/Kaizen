@@ -3,12 +3,12 @@ import { makeStyles } from '@material-ui/core/styles';
 export default makeStyles((theme) => ({
   mainContainer: {
     display: 'flex',
-    alignItems: 'stretch',
+    alignItems: 'center',
   },
-  smMargin: {
-    margin: theme.spacing(1),
+  lgMargin: {
+    margin: theme.spacing(5),
   },
   actionDiv: {
-    textAlign: 'right',
+    textAlign: 'center',
   },
 }));
