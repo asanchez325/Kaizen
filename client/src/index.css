@@ -11,19 +11,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-nav.imageWrapper{
-  position: relative
-}
-
-nav.imageWrapper div.img { position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 0;
-  max-height: 70vh;
-  background-size: cover;
-background: url("./assets/images/home/home.jpg");
-z-index: -1
-}

@@ -28,7 +28,7 @@ export default makeStyles((theme) => ({
     marginTop: theme.spacing(1),
     marginBottom: theme.spacing(1),
   },
-  curvyLines: {
+  curvyLine: {
     pointerEvents: 'none',
     position: 'absolute',
     top: -180,
@@ -41,15 +41,15 @@ export default makeStyles((theme) => ({
     display: 'flex',
   },
   cardWrapper1: {
-    zIndex: 1,
+    zIndex: 2,
   },
   card1: {
     display: 'flex',
     justifyContent: 'center',
     marginTop: theme.spacing(4),
-    marginBottom: theme.spacing(2),
+    marginBottom: theme.spacing(1),
     backgroundColor: theme.palette.background.default,
-    padding: theme.spacing(8, 3),
+    padding: theme.spacing(5),
   },
   cardContent1: {
     maxWidth: 400,
@@ -85,8 +85,8 @@ export default makeStyles((theme) => ({
     overflow: 'hidden',
   },
   container3: {
-    marginTop: theme.spacing(2),
-    marginBottom: theme.spacing(2),
+    marginTop: theme.spacing(4),
+    marginBottom: theme.spacing(4),
     position: 'relative',
     display: 'flex',
     flexDirection: 'column',

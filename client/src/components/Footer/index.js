@@ -1,22 +1,21 @@
-
 import React from 'react';
-
+import useStyles from './style';
+import { Typography } from '@material-ui/core';
 
 function Footer() {
-   
-    return(
-        
-            <footer className="footer">
-                <ul>
-                <li>May the Xen be with you!</li>
-                <li><a href="" target="_blank" rel=""></a></li>
-                <li><a href="" target="_blank" rel=""></a></li>
-                <li><a href=""></a></li>
-                </ul>
-                
-            </footer>
-        
-    );
+    const classes = useStyles();
+  return (
+<footer className= {classes.footer}>
+   <div className={classes.background}>
+    <Typography
+          variant="h4"
+          marked="center"
+          className={classes.title}
+          component="h2">
+        Thank you for visiting Kaizen!!
+    </Typography>  
+    </div>
+</footer>
+  );
 }
-
 export default Footer;
