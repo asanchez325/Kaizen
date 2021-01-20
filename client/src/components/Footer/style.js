@@ -6,11 +6,11 @@ export default makeStyles((theme) => ({
     bottom: 0,
     left: 0,
     right: 0,
-    marginTop: '18px',
+    marginTop: '-18px',
     paddingTop: '18px',
     paddingBottom: '48px',
     height: '12px',
-    position: 'static',
+    position: 'relative',
   },
   background: {
     background: 'url(../../images/home.jpg)',

@@ -50,10 +50,10 @@ export default makeStyles((theme) => ({
     padding: theme.spacing(8, 3),
   },
   cardContent1: {
-    maxWidth: 400,
+    maxWidth: 300,
   },
   textField1: {
-    width: '100%',
+    width: '80%',
     marginTop: theme.spacing(3),
     marginBottom: theme.spacing(2),
   },
@@ -67,17 +67,17 @@ export default makeStyles((theme) => ({
     left: -67,
     right: 0,
     bottom: 0,
-    width: '100%',
+    width: '75%',
     background: 'url(/static/onepirate/productCTAImageDots.png)',
   },
   image1: {
-    position: 'absolute',
+    position: 'static',
     top: -28,
     left: -28,
     right: 0,
     bottom: 0,
     width: '100%',
-    maxWidth: 600,
+    maxWidth: 800,
   },
   root3: {
     display: 'flex',
