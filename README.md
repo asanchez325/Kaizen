@@ -49,7 +49,6 @@ Allows users to be created, post gratitudes with title, caption, image and hasht
 | Alannah  | Jon |
 | ------------- | ------------- |
 | 10  | 10  |
-| 10  | 10  |
 
 ## Questions?
 
