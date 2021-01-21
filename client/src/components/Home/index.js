@@ -7,8 +7,8 @@ function Home() {
     <header>
     <div className="row banner">
        <div className="banner-text">
-          <h1 className="responsive-headline">KAIZEN</h1>
-          <h3 style={{color:'#fff', fontFamily:'sans-serif '}}>Be Greatful and Get your Xen on!!!
+          <h1 className="responsive-headline">KAIXEN</h1>
+          <h3 style={{color:'#fff', fontFamily:'sans-serif '}}>Be Grateful and Get your Xen on!!!
           </h3>
        </div>
     </div>
