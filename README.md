@@ -44,9 +44,10 @@ Allows users to be created, post gratitudes with title, caption, image and hasht
 
 ## License
 
-undefined
-
----
+|A    |          |
+|----------------|
+|B    |          |
+|----------------|
 
 ## Questions?
 
