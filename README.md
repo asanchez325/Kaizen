@@ -36,7 +36,7 @@ Allows users to be created, post gratitudes with title, caption, image and hasht
 ![alt preview](assets/About.jpg) <br/>
 ![alt preview](assets/Gratitudes.jpg) <br/>
 ![alt preview](assets/Newbackground.jpg) <br/>
-![See a demo of the Employee Tracker CLI here!](https://drive.google.com/file/d/1i-Mt_4MIwM_CDdTlyVp9JXtpUpwGqnyc/view)
+![See a demo of the Kaixen!](https://drive.google.com/file/d/1i-Mt_4MIwM_CDdTlyVp9JXtpUpwGqnyc/view)
 ---
 
 ## Tests
