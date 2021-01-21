@@ -143,5 +143,29 @@ html {
      -ms-transition: color .2s ease-in-out;
      transition: color .2s ease-in-out;
  }
+
+ footer {
+   padding-top: 18px;
+   padding-bottom: 48px;
+   margin-top: 50px;
+   margin-bottom: 4px;
+   height: 12px;
+   position: relative;
+}
+#footer-wrap {
+   font: 12px 'opensans-bold', sans-serif;
+   width: 100%;
+   background: url(../images/home.jpg);
+   background-size: cover;
+   text-transform: uppercase;
+   text-align: center;
+   letter-spacing: 2.5px;
+   margin: 0 auto;
+   z-index: 100;
+   left: 0;
+   right: 0;
+   bottom: 0;
+}
+
  
  

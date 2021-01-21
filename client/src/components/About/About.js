@@ -4,7 +4,7 @@ import zenImage from '../../images/kaizen.jpg';
 import togetherImage from '../../images/together.jpg';
 import alannahImage from '../../images/alannah.jpg';
 import jonImage from '../../images/jon.jpg';
-import adeleImage from '../../images/adele.jpg';
+import adeleImage from '../../images/adele2.jpg';
 import { Typography, Grid, Container, } from '@material-ui/core';
 import useStyles from './style';
 
