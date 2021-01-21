@@ -18,7 +18,7 @@ const MONGODB_URI = 'mongodb+srv://JCS_Develop:JCS_Develop12@cluster0.hwkts.mong
 const PORT = process.env.PORT|| 3030;
 
 if (process.env.NODE_ENV === 'production'){
-  app.use(express.static('client/build'));
+  app.use(express.static('./client/build'));
 
   app.get('*', (req,res) => {
     res.sendFile(path.resolve(__dirname,  'client', 'build', 'index.html'));

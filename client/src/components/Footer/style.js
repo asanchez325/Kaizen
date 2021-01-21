@@ -10,7 +10,7 @@ export default makeStyles((theme) => ({
     paddingTop: '18px',
     paddingBottom: '48px',
     height: '12px',
-    position: 'relative',
+    position: 'bottom',
   },
   background: {
     background: 'url(../../images/home.jpg)',
