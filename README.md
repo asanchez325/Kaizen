@@ -48,7 +48,7 @@ Allows users to be created, post gratitudes with title, caption, image and hasht
 ## License
 | Alannah  | Jon |
 | ------------- | ------------- |
-| 10  | 10  |
+| A | B  |
 
 ## Questions?
 
