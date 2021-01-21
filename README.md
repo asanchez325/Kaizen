@@ -48,8 +48,8 @@ Allows users to be created, post gratitudes with title, caption, image and hasht
 ## License
 | Alannah  | Jon |
 | ------------- | ------------- |
-| 10  | Content Cell  |
-| Content Cell  | Content Cell  |
+| 10  | 10  |
+| 10  | 10  |
 
 ## Questions?
 
