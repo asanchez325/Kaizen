@@ -32,7 +32,10 @@ By Jonathan Sanchez & Alannah Sanchez
 Allows users to be created, post gratitudes with title, caption, image and hashtags.
 
 ## Preview
-![alt preview](assets/Capture1.gif) <br/>
+
+![alt preview](assets/About.jpg) <br/>
+![alt preview](assets/Gratitudes.jpg) <br/>
+![alt preview](assets/Newbackground.jpg) <br/>
 ![See a demo of the Employee Tracker CLI here!](https://drive.google.com/file/d/1i-Mt_4MIwM_CDdTlyVp9JXtpUpwGqnyc/view)
 ---
 
@@ -43,9 +46,9 @@ Allows users to be created, post gratitudes with title, caption, image and hasht
 ---
 
 ## License
-| First Header  | Second Header |
+| Alannah  | Jon |
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
+| 10  | Content Cell  |
 | Content Cell  | Content Cell  |
 
 ## Questions?
