@@ -43,11 +43,10 @@ Allows users to be created, post gratitudes with title, caption, image and hasht
 ---
 
 ## License
-
-|A    |          |
-|----------------|
-|B    |          |
-|----------------|
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 
 ## Questions?
 
