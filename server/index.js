@@ -1,8 +1,8 @@
-import express from 'express';
-import bodyParser from 'body-parser';
-import mongoose from 'mongoose';
-import cors from 'cors';
-import path from 'path';
+const express = require ('express');
+const bodyParser = require ('body-parser');
+const mongoose = require ('mongoose');
+const cors = require ('cors');
+const path = require ('path');
 
 import postRoutes from './routes/posts.js';
 
@@ -14,7 +14,7 @@ app.use(cors());
 
 app.use('/posts', postRoutes);
 
-const MONGODB_URI = 'mongodb+srv://JCS_Develop:JCS_Develop12@cluster0.hwkts.mongodb.net/Memories?retryWrites=true&w=majority';
+const MONGODB_URI = 'mongodb+srv://asanchez325:1234@cluster0.7bkbq.mongodb.net/<dbname>?retryWrites=true&w=majority';
 const PORT = process.env.PORT|| 3030;
 
 if (process.env.NODE_ENV === 'production'){
