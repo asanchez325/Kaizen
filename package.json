@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "npm start --prefix server",
     "client": "npm start --prefix client",
-    "start": "concurrently \"npm run server\" \"npm run client\""
+    "start": "concurrently \"cd server && npm start index.js\" \"cd client && react-scripts start\""
   },
   "repository": {
     "type": "git",
